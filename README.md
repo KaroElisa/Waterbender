@@ -36,7 +36,7 @@ I started out by building a few seperate projects in touchdesigner with tutorial
 |![LiDARTest](https://github.com/user-attachments/assets/da5a4f06-2a4e-4b0e-bf23-55450edd1a72) |<img src="https://github.com/user-attachments/assets/2f061058-8d52-4f25-ac67-d7da9c4cdf89"> |
 |[Lake Heckaman's Great LiDAR tutorial](https://www.youtube.com/watch?v=fAvF2niosNA&t=0s) | [Fluid Simulation by Three Dashes](https://www.youtube.com/watch?v=2k6H5Qa_fCE) |
 
-When working with Touchdesigner, modular builds like these are incredibly useful because they let you take parts from different projects and combine them into one project, all while still being able to debug the components individually. This is what the project looks like from above:
+When working with Touchdesigner, modular builds like these are incredibly useful because they let you take parts from different projects and combine them into one project, all while still being able to debug the components individually. This is what the final project looks like from above:
 
 | Component-Based Architecture	|
 |---	
@@ -76,6 +76,17 @@ All good projects are required to come with bugs (I don't make the rules) so her
 | 4. Check the vision. Is the range of the LiDAR compatible with the range you need to input for the project to be interactive? This turned out to be the problem for me. To fix it, I had to change the way I was cropping the field of vision for the LiDAR and change how the project was mapped onto the wall |
 
 ***
+
+### Testing on Walls and Floors
+
+One of the key things I do for any installation is to test with the audience. In this case, I organized a session for people to play with the installation and to try different placements of the LiDAR sensor. In this case, I tried it both directly attached to the wall and placed on the floor. The different kinds of interactions were interesting to observe. People were immerdiately experimental in both settings, but the floor LiDAR led to more interesting visual effects.
+
+| Wall LiDAR | Floor LiDAR |
+|---	| ---	|
+| ![Website_Image2](https://github.com/user-attachments/assets/e7470a5d-14a5-4e70-9234-17935e35f356) | ![Website_Image3](https://github.com/user-attachments/assets/70d2f5a6-f551-4977-b1e3-80ed6013fb99) |
+
+***
+
 
 ## What I Learned
 
